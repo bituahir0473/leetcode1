@@ -9,9 +9,7 @@ class Solution:
         for i in range(m):
             for j in range(n):
                 if i==j==0:
-
                     continue
-                
                 val=0
                 if i>0:
                     val+=dp[i-1][j]
